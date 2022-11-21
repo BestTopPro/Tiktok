@@ -75,7 +75,7 @@ const Tiktok = () => {
 
     return (
       <div className=''>
-        {/* <div className="sidenav">
+        <div className="sidenav">
           {data.map(elm => (
             <p>{elm.name}</p>
           ))}
@@ -90,31 +90,7 @@ const Tiktok = () => {
             <span onClick={handleCheckClick} className='Check'>Check</span>
             <span onClick={handleAllClick} className='All'>View</span>
           </div>
-        </div> */}
-    <div class="grid grid-cols-4 gap-4">
-        <div>01</div>
-        <div>09</div>
-        <button type="button" class="blur-sm ring-2 ring-blue-500 rounded-full bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ...">
-          Hover me
-        </button>
-    </div>
-    {/* <div className='bg-[#3598DB] flex overflow-y-auto min-h-screen'>
-      <div className='pt-28 px-6 bg-yellow-200'>
-        <div className='flex flex-col gap-6'>
-          <div className='text-white'>dfgdfgsfgsrgv</div>
-        </div>
-      </div>
-      <div className='pt-28 px-6 bg-cyan-200'>
-        <div className='flex flex-col gap-6'>
-          <div className='text-white'>dfgdfgsfgsrgv</div>
-        </div>
-      </div>
-      <div className='pt-28 px-6 bg-red-200'>
-        <div className='flex flex-col gap-6'>
-          <div className='text-white'>dfgdfgsfgsrgv</div>
-        </div>
-      </div>
-    </div> */}
+        </div> 
       </div>
     )
 }
